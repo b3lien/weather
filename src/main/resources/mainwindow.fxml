@@ -1,0 +1,14 @@
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="com.ak.controller.MainWindowController">
+    <ImageView fx:id="image" fitHeight="100" fitWidth="100" >
+        <image>
+            <Image url="@../../../graphics/sunny.jpeg"></Image>
+        </image>
+    </ImageView>
+    <Label fx:id="temperature" text="Srednia temperatura to: "></Label>
+    <Label fx:id="temperaturef" text="Srednia temperatura w F to: "></Label>
+</VBox>
